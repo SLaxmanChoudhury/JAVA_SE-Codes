@@ -1,3 +1,4 @@
+import java.util.*;
 class Anagram
 {
     public static void main(String[] args)
@@ -5,6 +6,15 @@ class Anagram
         String a = "kalia is a";
         String b = "kalia is a";
         int h= 1;
+        // char[] ch =a.toCharArray();
+        // Arrays.sort(ch);
+        // for(char ba:ch)
+        // {
+        //     System.out.print(ba);
+        // }
+        a = a.toLowerCase();
+        b = b.toLowerCase();
+
         for(int i =0; i<a.length();i++)
         {
             for(int j =0;j<b.length();j++)
