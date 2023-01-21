@@ -7,7 +7,7 @@ class C
         D.slc();
     }
 
-    class D 
+    static class D 
     {
         static void slc()
         {
@@ -23,6 +23,7 @@ class Inner2
         // C c = new C();
         // c.kc();
         C.kc();
+        C.D.slc();
 
     }
 }
