@@ -10,7 +10,7 @@ abstract class Demo1Impl implements IDemo
     {
         System.out.println("This is Srevice block.");
     }
-    public abstract void process();
+    // public abstract void process(); bydefault this line present here.
    
 }
 class Demo1Imp2 extends Demo1Impl
