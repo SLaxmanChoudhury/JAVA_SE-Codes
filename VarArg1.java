@@ -12,7 +12,7 @@ class Dm2
             count =+ x[i];
         }
 
-        System.out.println(count);
+        System.out.println("Sum is = " + count);
         
     }
 }
