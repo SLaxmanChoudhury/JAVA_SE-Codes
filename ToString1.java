@@ -19,5 +19,9 @@ class ToString1
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
+
+        Integer x = 10;
+        Integer y = 10;
+        System.out.println(x == y);//true
     }
 }
