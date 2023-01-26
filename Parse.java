@@ -10,5 +10,7 @@ class Parse
 
         double d = Double.parseDouble("1001.23");
         System.out.println(d);
+
+        System.out.println(Integer.parseInt( args[0]) + Integer.parseInt( args[1]) );
     }
 }
