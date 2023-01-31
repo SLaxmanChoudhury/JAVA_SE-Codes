@@ -1,15 +1,15 @@
 class Parent
 {
-    public void method1()
+    public static void method1()  //static method do participate
     {
         System.out.println("This is Method1 block.");
     }
 }
 class Child extends Parent
 {
-    public void method1()
+    public static void method1()
     {
-        System.out.println("This is Method1 block.");
+        System.out.println("This is Method1 child block.");
     }
     public void method2()
     {
