@@ -6,9 +6,9 @@ class EH2
         Scanner sn = new Scanner(System.in);
         try
         {
-             System.out.println("Enter a Number : ");
+             System.out.println("Enter a number for Numerator : ");
              int a = sn.nextInt();
-             System.out.println("Enter the 2nd NUmber : ");
+             System.out.println("Enter the 2nd number for Denomenator : ");
              int b = sn.nextInt();
              int result = a/b;
              System.out.println("The Results of devision is : " +result);
