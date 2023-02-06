@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-class Alpha1
+class Alpha2
 {
     void alpha() throws ArithmeticException
     {
@@ -22,17 +23,21 @@ class Alpha1
             System.out.println("Exception handled in alpha method.");
             throw e;
         }
+        finally
+        {
+            System.out.println("Coden is terminated, this is Finally block");
+        }
         
     }
 }
 
-public class EH7
+public class EH8
 {
     public static void main(String[] args)
     {
         try
         {
-            Alpha1 bt = new Alpha1();
+            Alpha2 bt = new Alpha2();
             bt.alpha();
         }
         catch(Exception a)
