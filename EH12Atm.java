@@ -11,8 +11,8 @@ class CardHolder
 {
     int Uid = 1212;
     int Upw = 1111;
-    int Eid;
-    int Epw;
+    Integer Eid;
+    Integer Epw;
     void enterdata()
     {
         Scanner sn = new Scanner(System.in);
