@@ -6,7 +6,7 @@ class MyThread extends Thread
     {
         for(int i =0 ; i<5; i++)
         {
-       // Thread.yield();
+        Thread.yield();
         System.out.println("child Thread");
 
         }
