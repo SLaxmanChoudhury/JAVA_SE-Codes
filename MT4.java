@@ -1,3 +1,5 @@
+import java.sql.*;
+
 class MyThread extends Thread
 {
     public void run()
@@ -11,6 +13,7 @@ public class MT4
     {
         System.out.println("Priority of child thread is : "+Thread.currentThread().getPriority());
         MyThread mt = new MyThread();
+        mt.setPriority(7);
         mt.start();
     }
 }
