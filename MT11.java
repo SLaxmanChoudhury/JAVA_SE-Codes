@@ -2,8 +2,8 @@ class MT11
 {
     public static void main(String... args)
     {
-        Thread t = new Thread(
-            new Runnable(){
+        //Thread t = 
+        new Thread(new Runnable(){
                 public void run()
                 {
                     for(int i = 0; i<5;i++)
@@ -12,8 +12,8 @@ class MT11
                     }
                 }
             }
-        );
-        t.start();
+        ).start();
+     //   t.start();
 
         for(int j = 0; j<5; j++)
         {
