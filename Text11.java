@@ -5,11 +5,11 @@ interface Demo11
 }
 class Demo12 implements Demo11
 {
-    void demo11()
+   public void demo11()
     {
 
     }
-    void kcc()
+    public void kcc()
     {
 
     }
@@ -17,14 +17,14 @@ class Demo12 implements Demo11
 }
 class Demo13 extends Demo12
 {
-     void demo11()
+    public void demo11()
      {
         System.out.println("Panda");
      }
 }
 class Demo14 extends Demo13
 {
-    void kcc()
+   public void kcc()
     {
         System.out.println("Subham");
     }
