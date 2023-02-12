@@ -11,5 +11,14 @@ public class Lambda10
         };
 
         y.kc();
+
+        You yo = new You(){
+           public void kc()
+            {
+                System.out.println("My name is SLC");
+            }
+        };
+
+        yo.kc();
     }
 }
