@@ -11,7 +11,7 @@ class Ex1
         System.out.println("Your Name's ripited character is : ");
         for(int i = 0; i<a.length-1; i++)
         {
-            for(int j =1; j<a.length-1; j++)
+            for(int j = ++i; j<a.length-1; j++)
             {
                 if(a[i] == a[j])
                 {
