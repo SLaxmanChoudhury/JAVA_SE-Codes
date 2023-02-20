@@ -2,6 +2,7 @@ class Display1
 {
     void dis(String name)
     {
+        System.out.println(Thread.currentThread().getName());
         System.out.println("My name is "+ name + "............................");
         synchronized(this)
         {
