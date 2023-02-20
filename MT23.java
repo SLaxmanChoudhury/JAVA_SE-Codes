@@ -36,7 +36,7 @@ class Exx extends Thread
     }
 }
 
-class MT22
+class MT23
 {
     public static void main(String... args)
     {
@@ -44,7 +44,7 @@ class MT22
         Display1 d2 = new Display1();
 
         Exx e1 = new Exx(d1, "Laxman");
-        Exx e2 = new Exx(d1, "Kalia");
+        Exx e2 = new Exx(d2, "Kalia");
 
         e1.start();
         e2.start();
