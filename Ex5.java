@@ -36,6 +36,7 @@ public class Ex5
 
         synchronized(b)
         {
+            System.out.println("KC");
             System.out.println("Main thread calling wait() method");//step-1
             b.wait();
             System.out.println("Main thread got notification call");//step-4
