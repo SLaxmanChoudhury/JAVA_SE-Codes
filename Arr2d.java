@@ -37,19 +37,8 @@ class Arr2d
                 {
                     System.out.println("Enter the matk for "+i+ "No branchs, "+j+" No sections, "+k+" No student's Mark : ");
                     arr[i][j][k]= sn.nextInt();
-
-
-
-
-
                 }
-               
-              
-                
-
             }
-            
-
         }
         
         System.out.println("Show the data.");
